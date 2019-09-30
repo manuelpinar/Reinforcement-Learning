@@ -38,13 +38,22 @@ I used the DQN algorithm used in the lesson. I only changed the neural network m
 
 
 In DQN algorithm  we use non linear aproximators to calculate the value action based directly on observation from the environment. We 
-represented it as a DEEP NEURAL NETWORK instead of a table. 
+represented it as a DEEP NEURAL NETWORK instead of a table.
+The Neural Network learns the value of each action at each state. The input of the neural network has dimension of 37 because the environment's state has 37 dimension and the output of the network is an array of 4 values because there are 4 possible actions for the agent.
 
 This could be unstable, to solve this we can use:
 
 - EXPERIENCE REPLAY
 
 - FIXED Q-TARGET
+
+This implementation could be improve using:
+
+- Dueling networks
+
+- Double DQN
+
+- Prioritized experience replay 
 
 Our neural network in model.py:
 
