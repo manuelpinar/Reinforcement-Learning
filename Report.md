@@ -35,7 +35,18 @@ UPDATE_EVERY = 4            # how often to update the network
 3.	Learning algorithm
 
 I used the DQN algorithm used in the lesson. I only changed the neural network model, adding one more linear layer.
-Model.py
+
+
+In DQN algorithm  we use non linear aproximators to calculate the value action based directly on observation from the environment. We 
+represented it as a DEEP NEURAL NETWORK instead of a table. 
+
+This could be unstable, to solve this we can use:
+
+- EXPERIENCE REPLAY
+
+- FIXED Q-TARGET
+
+Our neural network in model.py:
 
 FC1 (128 unit) with relu  --> FC2 (64 units) with relu --> FC3 (64 units) 
 
