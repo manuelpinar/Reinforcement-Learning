@@ -39,5 +39,5 @@ Episode 471	Average Score: 13.02
 
 Environment solved in 371 episodes!	Average Score: 13.02
 
-![](C:\Users\manue\Desktop\Artificial Intelligence\Reinforcement Learning Nanodegree\deep-reinforcement-learning-master\p1_navigation\results.png)
+![](https://github.com/manuelpinar/Reinforcement-Learning/blob/master/results.png)
 
